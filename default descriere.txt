@@ -1,0 +1,9 @@
+default
+
+teleport player-player
+
+teleport /back
+
+3 case
+
+posibilitatea de a avansa
