@@ -1,0 +1,130 @@
+  body { 
+  background-image: url("https://cdn.pixabay.com/photo/2015/03/11/21/51/minecraft-669302_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  text-shadow: 2px 2px black;
+
+}
+
+  a {
+   color: red;
+   text-decoration: underline;
+   text-shadow: 1px 1px yellow;
+ }
+
+  th {   background-image: url("imgs/sign.jpg"); background-repeat: repeat; background-size: cover; width: 500px; height: 50px;}
+
+  .navylinks { color: black; text-shadow: 1px 1px black; text-decoration: none; font-size: 25px}
+
+  .menu-bar {
+   position: relative;
+   background-color: black;
+   font-size: 100%;
+   width: 100%;
+   height: 50px; }
+
+  .main-back {
+   background-color: rgba(0,0,0,0.5);
+   border: solid rgba(0,0,0,0.75);
+   margin-top: 40px;
+   margin-right: 10%;
+   margin-left: 10%;
+    background-image: url("https://www.ilovewallpaper.co.uk/images/zara-shimmer-metallic-wallpaper-soft-grey-silver-p4924-21148_image.jpg");
+  }
+
+  .items-back {
+   background-color: rgba(50,50,50,1);
+   border: solid;
+   border-color: rgba(255,255,255,0);
+   border-width: 20px;
+ }
+
+  .ITEMS {
+   display: inline-flex;
+   position: relative;
+   border-style: solid;
+   border-width: 100%;
+   background-image: url("https://i.pinimg.com/originals/99/85/85/9985851e1d9b2a7dfd24f9e0a56c261f.jpg");
+  animation: slide_in_left 2s;
+
+ }
+
+  .item-title {
+   margin-right: 20px;
+   float: left;
+   position: relative;
+   left: 20%;
+
+   }
+
+  .add-to-cart {
+   float: right;
+   position: relative;
+   left: 80%;
+ }
+
+  .item-icon {
+   height: 50px;
+   width:50px;
+   border-style: solid; 
+   
+ }
+
+  .item-description {
+   position: absolute;
+   display: inline-grid;
+   margin: 20px;
+   width: 300%;
+   color: lightgray;
+   animation: slide_in_right 3s;
+ }
+
+  br {
+   content: "A" !important;
+   display: block !important;
+   margin-bottom: 1.5em !important;
+   border: solid;
+  }
+
+  .section {
+   margin-left: 40px;
+   animation: slide_in_left 2s;
+   }
+
+  .section-back {
+   background-color: rgba(50,50,50,1);
+   border: solid rgba(50,50,50,1) 20px;
+ }
+
+  .grad {
+    animation: slide_in_right 3s;
+  }
+
+
+ @keyframes slide_in_left {
+  0% {position: relative; left: -1000px}
+
+  100% {position: relative; left:0px;}
+
+ }
+
+  @keyframes slide_in_tfel {
+  0% {position: relative; right: -1000px}
+
+  100% {position: relative; right:0px;}
+
+ }
+
+  @keyframes slide_in_right {
+  0% { color: transparent; text-shadow: none; opacity: 0;}
+
+  20% { color: transparent; text-shadow: none; opacity: 0;}
+
+  40% { color: transparent; text-shadow: none; opacity: 0;}
+
+  60% { color: transparent; text-shadow: none; opacity: 0;}
+
+  100% {color: none; text-shadow: 1px 1px black; opacity: 1;}
+
+ }

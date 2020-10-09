@@ -1,0 +1,7 @@
+VIP
+
+tot de la default
+
+feed [ 6000s CD ]
+
+[VIP] prefix

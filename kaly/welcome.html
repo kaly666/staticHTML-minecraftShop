@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HumbleBundle Games</title>
+</head>
+<body onload="magicstuff(40,0)">
+<h1 class="gamelist"> Humble Bundle Trove Backup.exe </h1><h4 class="gamelist">by Kaly</h4>
+
+
+
+
+<div id="content">
+	
+
+</div>
+
+</div>
+</body>
+
+<script type="text/javascript">
+	var gameimg = ['https://i.ytimg.com/vi/0R5z6MZv9iA/maxresdefault.jpg', 'https://i.ytimg.com/vi/mcIm0c7Qcms/maxresdefault_live.jpg' , 'https://steamcdn-a.akamaihd.net/steam/apps/1055540/ss_b7d8461d15fe32b779dbb2dfb33b10d98d78e528.1920x1080.jpg' , 'https://i.ytimg.com/vi/nwl4AnSZB1Q/maxresdefault.jpg' , 'https://i.ytimg.com/vi/oD77BreUfC8/maxresdefault.jpg' , 'https://hb.imgix.net/fa723dc65202d56754268c7094acb47f1f81fa91.jpg?auto=compress,format&fit=crop&h=353&w=616&s=d2bc91d40e384db4ef62b831ab259987', 'https://steamcdn-a.akamaihd.net/steam/apps/383230/extras/dun.png?t=1486761182' , 'https://i.ytimg.com/vi/vDBayO8mtSA/maxresdefault.jpg' , 'http://www.sidequesting.com/wp-content/uploads/ethereal-logo.png' , 'https://images.greenmangaming.com/934613d252a4457f9ca1367043bafafa/68bf37e2f079404280474aa8e7507812.jpg' , 'https://venturebeat.com/wp-content/uploads/2013/03/3a2cbdd.jpg' , 'https://steamcdn-a.akamaihd.net/steam/apps/98200/ss_8a3c20ebb40066b04e78d7a74e4013a4d69fd57e.1920x1080.jpg' , 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Gemini_Rue_cover.png/220px-Gemini_Rue_cover.png' , 'https://steamcdn-a.akamaihd.net/steam/apps/240720/header.jpg' , 'http://keyboardsports.com/new_logo.png' , 'https://steamcdn-a.akamaihd.net/steam/apps/860850/header.jpg?t=1554335386' , 'https://cdn03.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Limbo_image1600w.jpg' ,'https://i.ytimg.com/vi/cvw7fuqcXp8/maxresdefault.jpg' , 'https://i.ytimg.com/vi/nHPMKO6KSjA/maxresdefault.jpg' , 'https://steamcdn-a.akamaihd.net/steam/apps/12710/header.jpg' , 'https://www.hrkgame.com/media/games/.thumbnails/header_vjd660k.jpg/header_vjd660k-460x215.jpg' , 'https://i.ytimg.com/vi/TqjxCs_OOa8/hqdefault.jpg', 'https://i.ytimg.com/vi/8u4OWvpIiwc/maxresdefault.jpg' , 'https://i.ytimg.com/vi/USl3nNNYVOY/hqdefault.jpg' , 'https://i.ytimg.com/vi/COX1lXoyDWI/maxresdefault.jpg' , 'https://lutris.net/media/games/screenshots/Star-Wars-X-Wing-Alliance.jpg' , 'https://i.ytimg.com/vi/EVy8PntDOnE/maxresdefault.jpg' , 'https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/SuperMeatBoy_cover.png/220px-SuperMeatBoy_cover.png' ,'https://steamcdn-a.akamaihd.net/steam/apps/249590/header.jpg' , 'http://4.bp.blogspot.com/-EFbAW6Wlm1U/TbzUgPY9XGI/AAAAAAAAAA0/6gAfDj688hE/s1600/maquina2.jpg' , 'https://steamcdn-a.akamaihd.net/steam/apps/552590/header.jpg' , 'https://i.ytimg.com/vi/VAvbTrxmH9s/hqdefault.jpg' , 'https://i.ytimg.com/vi/IsMiddRJKdM/maxresdefault.jpg' , 'https://steamcdn-a.akamaihd.net/steam/apps/273070/ss_e41eaf82b37dd862dcc80c20339885c46dcd317c.1920x1080.jpg' , 'https://steamcdn-a.akamaihd.net/steam/apps/200710/ss_13dce233d93ffefbfdcee3767e2f08deda36d52c.1920x1080.jpg' , 'https://steamcdn-a.akamaihd.net/steam/apps/41500/ss_7be85eebe0c7d7ea5480986c7ef7ebebe1b0dcac.1920x1080.jpg' , 'https://cdn.mos.cms.futurecdn.net/hsnXB7XQVyMAdXjur9qZPW.jpg' , 'https://i.ytimg.com/vi/dh7wbwRttTE/hqdefault.jpg' , 'https://cdn1-www.gamerevolution.com/assets/uploads/2013/04/file_29459_volgarr-the-viking_001.jpg' , 'https://i.ytimg.com/vi/SU-rbtT1wVU/maxresdefault.jpg' , 'https://i.ytimg.com/vi/bD1H5ySVgEU/maxresdefault.jpg']
+	
+	var gamelist = ['20 Minute Metropolis' , '2000 to 1 A Space Felony' , 'A Short Hike' , 'Cat Girl Withou Salad' , 'Crescent Bay' , 'Deadlight' , 'Dungeon Souls' , 'Elephant in the room' , 'ETHEREAL' , 'FELegendaryHeroes' , 'FOTONICA' , 'FrozenSynapse' , 'Gemini-rue' , 'Getting Over It' , 'Keyboard Sports' , 'KnightClub' , 'LIMBO' , 'LyricSonata' , 'Oh Deer' , ' Overlord' , 'Renowned Explorers' , 'Roombo FirstBlood' , 'Shelter', 'SanctuaryRPG' , 'Star Wars Rebellion' , 'Starwars XWingAlliance' , 'Strike Suit Zero' , 'Super Meat Boy' , 'Teslagrad' , 'The Incredible Machine' , 'The Sexy Brutale' , 'The Bridge' , 'THORN' , 'The Last Federation' , 'Torch Light 2' , 'Torch Light' , 'Uurnog' , 'vApe Escape' , 'VolgarrTheViking' , 'Woten','Yojimbrawl']
+	
+	var gamelink = ['https://mega.nz/#!P80QjQpC!IhMxbhqyuLvHNR8UZZz_OA03jDpjLMf9mxkcuHr_U0M', 'https://mega.nz/#!Wk8kVQqQ!jAXowQrHO4q0L7qvmzR4iIojw3n68kLRZcuxDqCbUjw ', 'https://mega.nz/#!b8sQ1KqJ!4voha119IHyahAXub0Bad40tv2Knh42t2lcXS-1xqr4' , 'https://mega.nz/#!Pwkg1SRA!hJOXQyct46nBxWgNeQbeXUTRK8km__3YO86iFvMwD2M' , 'https://mega.nz/#!ntlwBaSR!CtauGTwtqwwxZKvtGKSbS5tbcb3AhgYq9hiAb5EjNPE' , 'https://mega.nz/#!jhkChQYI!WCzB6lXIDlYxLg4QND8qUskwcctOns8YELd8c_sFEFE' , 'https://mega.nz/#!Ss8UQSBa!y1z0fjywJHe80fKOXNDLQfCRG4NMyLszW3SrlgfIHk4' , 'https://mega.nz/#!3s0glaJR!OWZzPI5_c4SVyvRqfWJov0eatdEDwj5G2JSuKpWEOmU' , 'https://mega.nz/#!W59wnARb!ec4XPpv75xk-Cc1nAsvFs9rmsAkZb30q3vbU8XcTGkk' , 'https://mega.nz/#!u0kmHAKT!Mjt-c3zAqbm14ocnGjm9cIiNMlp8-tm18wLUBavppSg' , 'https://mega.nz/#!W19WjAxa!iTTc0eE-or3mPq_zcZ7wRbsSH7UFmpFeDsP1yVDhwzM' , 'https://mega.nz/#!X51EBS4S!sMSwACuCE2XPMw5BbmOpylVhJQxRsbBggJHY_4dX1rY' , 'https://mega.nz/#!ygsU1awR!DQwAMNpyuAF-2AnUKs5I0etvDr-G3_oV15TJeom2PBw' , 'https://mega.nz/#!nk0mVSgT!cEC0RNBnQHIRdWoDC6m_CnokZ7d3SLzaLXbEX6rKuZ4' , 'https://mega.nz/#!H8s2gCxS!r6rLtafNCvNEhq2HWbHfzxlTulMrnsnn4lJ9e1zXMmA' , 'https://mega.nz/#!O4sWhC7Z!OeY7GyMIdsuySvanwlIDhqgh9MQ-gorM2PHCNaN8xuI' , 'https://mega.nz/#!il1g3IKB!FOXnlzm-ROvM1C7j-OGj-gK__4HUVzP5mjkzFaGMz6M' , 'https://mega.nz/#!S01gzCYB!cixJMGiMVEoplYsU4FBsTpAqDFr0ga-TDuFHgHlW-vA' , 'https://mega.nz/#!vx10XIYD!_0gI3fDbUI11o7-OnmXcVDbV9eOv-TguUERWmaWbYR4' , 'https://mega.nz/#!q91CSCYD!sU-fRgW5xOJBEy22XMRN8nIOZ3QYWcBJLG6Rpns3AyE' , 'https://mega.nz/#!O08WnI4A!wCvLZg_HdrzgOofICQ77lM738W08VNQkiPGU2IZKnbM' , 'https://mega.nz/#!TxtE3SAb!COJHRzYfAE2HFthxP1icsZ9ozNn8v2hlWTPvAkMFTe0' , 'https://mega.nz/#!yxtSgYSA!ozNBQmPj5OmrBmG82zps5WoxNAO47YKWqjAqyiHDrFw' , 'https://mega.nz/#!WttSVAbA!wlLSmtZhLF2wMlTe9LKjSgR0cT_DHyd0w0M1v45qnNQ' , 'https://mega.nz/#!P8sCBKzQ!8SJRtS4VOB-Eq_JiTrGaI0lsVx_yvfsygbAJntHXVAU' , 'https://mega.nz/#!ihlExYZB!Y-k8Y17rKMcs8dySNjbfvp6R_NGM6abfNtHMP9TcsUc' , 'https://mega.nz/#!rt9whIrK!GjPlA_m58IRLCq2StMCcqmcxg8emY0QUlhAnTS7LrmQ' , 'https://mega.nz/#!v1sS3ChY!J8-RNHJLfoYFz693S69NxTPaJVX1rIWdKK-JhR9fhAY' , 'https://mega.nz/#!7h8kEKDK!z10LVubNpX2vTpwC6Qf04CYsSnEGQisw_2kOmQClfNg' , 'https://mega.nz/#!Pk9UiAhC!v1ZVnK25pI1qu43LhWzpxYrtgMRfk3DRaLGhHs7nlTc' , 'https://mega.nz/#!bp0ywa6Y!ZTR2YCvqnVQZQPwguWPkg8g6Dzi5cJe_Ce4n3Ke6gbk' , 'https://mega.nz/#!Hg1ghKLY!57dq22RUo9eGmLztYzvxi8-vIqeyWcIhrzJrcaVdRqQ' , 'https://mega.nz/#!P8lSXQbS!pfMshYqn1D-kFwWw7R4GlZ6mz6OTdrByT-6V4NlYltk' , 'https://mega.nz/#!Wk0EAIbL!OXjZX3fWJllxpRMNfKtHJUTXOjYA7Kg6GFWfQMKSaJ8' , 'https://mega.nz/#!iplCEQaL!OPeZG456om3oHgE7OBxPKvhJnTxJL6odaxsThWW8_kc' , 'https://mega.nz/#!vx8AEIxZ!A-YI92ewrsUswdYpRINgrDQNVdKXbzT-L1mh98Ww9lk' , 'https://mega.nz/#!zl0CWIoI!8ofGpEAAwzuc5P33GsBy9xxSxMGFMB-W5L6b5aLr_y4' , 'https://mega.nz/#!rs9QXQbR!jjkIz9B-4G3JbsSzX7CMQgyjyNH0_OKyemB5MAZ95Tc' , 'https://mega.nz/#!ik1CEKRB!zUScF0zNIvnM6tO1KUa-qs6aeNiBPs1r4DXU7Vp6PMg' , 'https://mega.nz/#!Xs1iXaAL!zpvHRY6uJUSP9B-eCyReh05G6YOr3NwjRTSflTL3nuQ' , 'https://mega.nz/#!X51UzCTa!JeqcFXHhGtnZ12Dkf-qgLzQF8a36BCR7FjO5d1-1Cp8']
+
+	function namelist(name, image , link) {
+			var imagelink = document.createElement('a')
+			var divider = document.createElement("div");
+			divider.id = name;
+
+			var trans = image;
+			var imgpar = document.createElement("p");
+
+			var image = document.createElement("img");
+			var textnode = document.createElement("a");
+			var text = document.createTextNode(name);
+			textnode.href = link;
+
+			image.width = 600;
+			image.height = 300;
+			image.src = trans;
+
+			imagelink.href = link;
+			textnode.appendChild(text);
+			
+			imgpar.appendChild(image);
+
+			divider.appendChild(textnode);
+
+			divider.classList = "gamelist";
+
+			imagelink.appendChild(imgpar);
+
+			divider.appendChild(imagelink)
+
+			document.getElementById("content").appendChild(divider);     
+	}
+
+
+
+	function magicstuff(amount_of_games, beginwith){
+		for (var i = beginwith ; i <= amount_of_games;i++)
+				namelist(gamelist[i],gameimg[i], gamelink[i])
+	}
+
+
+</script>
+
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+
+
+	html { 
+
+		background-image: url(http://hdwpro.com/wp-content/uploads/2017/12/Floral-Cool-Wallpaper.jpg); 
+		background-repeat: no-repeat; 
+		background-attachment: fixed; 
+		background-size: cover;
+		text-align: center;
+	}
+
+
+
+
+	.gamelist { 
+				background-color: rgba(0,0,0,0.4);
+				border-radius: 50;
+				animation: rainofcollors 4s infinite; transition: all 1s; animation-direction: alternate;
+				font-family: 'ZCOOL KuaiLe', cursive;
+				border-bottom-width: 10px;
+				border-style: solid; display: inline-block;
+			}
+
+	a { animation: rainofcollors 4s infinite; transition: all 1s; animation-direction: alternate;}
+
+	@keyframes rainofcollors { 0% {color: rgb(255,0,0)} 25% { color: rgb(255,255,0); } 50% { color: rgb(0,255,255); }  75% {color: rgb(255,0,255);} 100% { color: rgb(255,0,0); }}
+</style>
+
+</html>

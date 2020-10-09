@@ -1,0 +1,195 @@
+<html>
+<head>
+    
+</head>
+
+<style type="text/css">
+
+    body {
+
+		  background:url(http://artem.anmedio.ru/dev/planet/space.jpg) repeat;
+		background-size: cover; 
+		background-repeat: no-repeat; 
+		background-color: rgb(0,0,20);
+		background-position: center;
+		background-attachment: fixed;
+		color: white;
+		text-align: center;
+		text-shadow: 2px -2px black;
+		font-size: 13px;
+
+}
+
+
+	table {
+		position: relative;
+		left: 13.2%;
+		padding: 3.2% 0px;
+
+	}
+
+
+
+.planet{
+  width:99px;
+  height:99px;
+  position:relative;
+  border-radius:50%;
+  overflow:hidden;
+  box-shadow: 0 0 60px -20px rgba(255, 189, 3, 0.72), -14px -15px 40px -10px rgba(255, 238, 191, 0.23);	
+}
+.planet .mask{
+  width:99px;
+  height:99px;
+  position: relative;
+  box-shadow:inset -10px -10px 40px #251303, inset 10px 10px 30px -10px rgba(255, 204, 159, 0.6);
+  border-radius:50%;
+}
+.planet .background{
+  animation: translateBackground 40s infinite linear;  
+  background-size: cover;
+  background-repeat: repeat;
+  width:99px;
+  height:99px;
+  position:absolute;
+  border-radius:50%;
+}
+.planet .clouds{
+  background:url(http://artem.anmedio.ru/dev/planet/clouds.png) repeat-x;
+  width:99px;
+  height:99px;
+  position:absolute;
+  border-radius:50%;
+  animation: translateBackground 30s infinite linear;
+  opacity: 0.4;
+}
+.planet .wrap{
+  width:99px;
+  height:99px;
+  position:absolute;
+  border-radius:50%;
+  animation: rotatePlanet 150s infinite linear;  
+}
+@keyframes translateBackground{
+  0%{
+    background-position-x:0;
+  }
+  100%{
+    background-position-x:-500px;
+  }
+}
+@keyframes rotatePlanet{
+  0%{
+    transform:rotateZ(0);
+  }
+  100%{
+    transform:rotateZ(-360deg);
+  }
+}
+
+
+
+
+@keyframes rotate 
+
+</style>
+<script type="text/javascript">
+	
+</script>
+
+<body>
+
+
+<div style="background-color: rgba(0,0,0,0.4); width: 330px; position: relative; left: 37.5%">
+<h1>Welcome to Xeno Galaxy</h1>
+<h2>a place where you'll find different kind of stuff</h2>
+<h3>Weooooo weoooo bohohoooooo</h3>
+<h4>Psst ... check below for infos</h4>
+</div>
+
+
+<table>
+
+<td style="position:fixed; left: 165px;">
+<p>Planet K4LY2020</p>
+<a href="kaly/index.html">
+<div class="planet">
+  <div class="wrap">
+     <div class="background" style="background-image: url(http://xeno-galaxy.fun/kaly/resources/wpp.png);"></div>
+     <div class="clouds"></div>   
+  </div>
+  <div class="mask"></div>
+</div>
+</a>
+
+</td>
+
+<td style="position:fixed; right:265px; bottom: 64%">
+<p>Planet MC5VG4B1</p>
+<a href="mc-home.html">
+<div class="planet">
+  <div class="wrap">
+     <div class="background" style="background-image: url('https://cexit.ro/wp-content/uploads/2017/10/613KqV0AZzL-1200x600.png');"></div>
+     <div class="clouds"></div>   
+  </div>
+  <div class="mask"></div>
+</div>
+</a>
+</td>
+
+<td style="position:fixed; left:400px; bottom: 50%">
+<p>Planet Challanges</p>
+<a href="challanges.html">
+<div class="planet">
+  <div class="wrap">
+     <div class="background" style="background-image: url('https://www.redeemthecommute.com/wp-content/uploads/2012/11/Challenge-Banner.png');"></div>
+     <div class="clouds"></div>   
+  </div>
+  <div class="mask"></div>
+</div>
+</a>
+</td>
+
+<td style="position:fixed; right:500px; bottom: 50%">
+<p>Planet S0C14L153</p>
+<a href="https://discord.gg/jDj4YFK">
+<div class="planet">
+  <div class="wrap">
+     <div class="background" style="background-image: url('https://cdn.oneesports.gg/wp-content/uploads/2020/03/Discord.jpg');"></div>
+     <div class="clouds"></div>   
+  </div>
+  <div class="mask"></div>
+</div>
+</a>
+</td>
+
+<td style="position:fixed; right:700px; bottom: 30%">
+<p>Planieta Moldoveniasca</p>
+<a href="anime-dublate-in-moldoveneasca/index.html">
+<div class="planet">
+  <div class="wrap">
+     <div class="background" style="background-image: url('https://www.anime-planet.com/images/characters/moldova-84818.jpg');"></div>
+     <div class="clouds"></div>   
+  </div>
+  <div class="mask"></div>
+</div>
+</a>
+</td>
+
+
+</table>
+
+
+
+
+<div style=" position: relative; background-color: rgba(0,0,0,0.5); font-size: 10px; position: absolute; bottom: 0%; width: 95%; left: 2.5%">
+	<h1 >Some infos about this site:</h1>
+	<p>
+		This site's purpose is to get me used to web dev stuff.</p>
+		<p>I'm going to host here mostly everything I make.</p>
+		<p>Gonna make it look like a galaxy and you will pick planets.
+	</p	>
+	<h4 style="font-size: 15">Also, I'm willingly to pick up lonely planets (AKA Ghost Game Servers) and hold them inside (Give a sub domain) as long as they want for an unsignificant amount of resources.</h4>
+</div>
+</body>
+</html> 	
